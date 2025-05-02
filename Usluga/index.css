@@ -130,3 +130,109 @@ nav {
 
 /*  */
 
+.h1_H {
+	/* color: #fff; */
+	font-family: Roboto;
+	font-size: 44px;
+}
+
+.header_bg {
+	position: relative;
+}
+
+.img_bg_H {
+	position: absolute;
+	top: 0;
+	z-index: -1;
+	width: 100%;
+	height: 50px;
+}
+
+/*  */
+
+.sect_bg {
+	background: rgb(237, 237, 237);
+}
+
+/*  */
+
+.black_bg {
+	position: relative;
+	width: 100%;
+}
+
+.img_doctor_hend {
+	bottom: 0px;
+	position: absolute;
+	width: 50%;
+	height: 465px;
+	z-index: -1;
+	background: #000;
+}
+
+.Sect_03 {
+	bottom: 0px;
+	position: absolute;
+	background: #48cfc5;
+	width: 50%;
+	height: 465px;
+	z-index: -1;
+	right: 0;
+}
+
+.comment_D {
+	border-radius: 10px;
+	padding: 5% 10%;
+	width: 100%;
+	background: #fff;
+}
+
+.C_P {
+	text-align: center;
+	font-size: 22px;
+	font-weight: 500;
+}
+
+.d_img_u {
+	text-align: center;
+}
+
+.user_img {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.C_P_02 {
+	text-align: center;
+	font-size: 12px;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+
+.C_P_03 {
+	text-align: center;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+/*  */
+
+.h2_S03 {
+	text-align: center;
+	font-size: 34px;
+}
+
+.p_S03 {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.img_Akt {
+	width: 100%;
+}
+
+/*  */
+
