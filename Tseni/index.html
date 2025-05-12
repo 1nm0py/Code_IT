@@ -40,9 +40,10 @@
                             <i class="fa-solid fa-basket-shopping"></i>
                         </div>
                         <!-- <div class="d_bg_black"> -->
-                        <select class="form-select" aria-label="Default select example" style="width: 70px;">
-                            <option selected> <i class="fa-solid fa-user"></i> </option>
-                            <option value="1">One</option>
+                        <select class="form-select" aria-label="Default select example" style="width: 70px;"
+                            onchange="handleSelect(this)">
+                            <option selected><i class="fa-solid fa-user"></i></option>
+                            <option value="1">Acc</option>
                             <option value="2">Two</option>
                             <option value="3">Three</option>
                         </select>
@@ -113,21 +114,24 @@
                             <p class="p_sect_bg">1,50 $</p>
                         </div>
                         <p class="p_N_text">Слоеные капсулы с золотисто-коричневой оболочкой, идеально для утреннего
-                            <br> приема или легкого перекуса.</p>
+                            <br> приема или легкого перекуса.
+                        </p>
 
                         <div class="N_p_text">
                             <p class="p_sect_bg">Медицинские препараты</p>
                             <p class="p_sect_bg">1,50 $</p>
                         </div>
                         <p class="p_N_text">Слоеные капсулы с золотисто-коричневой оболочкой, идеально для утреннего
-                            <br> приема или легкого перекуса.</p>
+                            <br> приема или легкого перекуса.
+                        </p>
 
                         <div class="N_p_text">
                             <p class="p_sect_bg">Медицинские препараты</p>
                             <p class="p_sect_bg">1,50 $</p>
                         </div>
                         <p class="p_N_text">Слоеные капсулы с золотисто-коричневой оболочкой, идеально для утреннего
-                            <br> приема или легкого перекуса.</p>
+                            <br> приема или легкого перекуса.
+                        </p>
                     </div>
                     <div class="col-6">
                         <h6 class="h6_sect">Выпечка</h6>
@@ -136,21 +140,24 @@
                             <p class="p_sect_bg">1,50 $</p>
                         </div>
                         <p class="p_N_text">Слоеные капсулы с золотисто-коричневой оболочкой, идеально для утреннего
-                            <br> приема или легкого перекуса.</p>
+                            <br> приема или легкого перекуса.
+                        </p>
 
                         <div class="N_p_text">
                             <p class="p_sect_bg">Медицинские препараты</p>
                             <p class="p_sect_bg">1,50 $</p>
                         </div>
                         <p class="p_N_text">Слоеные капсулы с золотисто-коричневой оболочкой, идеально для утреннего
-                            <br> приема или легкого перекуса.</p>
+                            <br> приема или легкого перекуса.
+                        </p>
 
                         <div class="N_p_text">
                             <p class="p_sect_bg">Медицинские препараты</p>
                             <p class="p_sect_bg">1,50 $</p>
                         </div>
                         <p class="p_N_text">Слоеные капсулы с золотисто-коричневой оболочкой, идеально для утреннего
-                            <br> приема или легкого перекуса.</p>
+                            <br> приема или легкого перекуса.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -222,6 +229,19 @@
             <p class="levtover_p">Авторское право © Название компании</p>
         </div>
     </div>
+
+    <script>
+        function handleSelect(select) {
+            if (select.value === "1") {
+                window.location.href = "../Akk/index.html";
+            } else if (select.value === "2") {
+                window.location.href = "";
+            } else if (select.value === "3") {
+                window.location.href = "";
+            }
+            // boshqa variantlar uchun xohlasangiz boshqa yo'nalishlar qo‘shishingiz mumkin
+        }
+    </script>
 
     <script src="./bootstrap/bootstrap.js"></script>
 </body>
