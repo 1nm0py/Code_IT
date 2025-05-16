@@ -130,7 +130,100 @@ nav {
 
 /*  */
 
+.h2_H {
+	font-family: Roboto;
+	font-size: 30px;
+	font-weight: 400;
+}
 
+.d_Card_H {
+	padding: 5px 25px;
+	background: #0000000b;
+	border-radius: 10px;
+	/* width: 50%; */
+	display: flex;
+	gap: 25px;
+	/* justify-content: space-between; */
+}
+
+.d_Card_H:hover {
+	background: #0000002b;
+}
+
+.img_C {}
+
+.text_C {
+	font-family: Roboto;
+}
+
+.T_C_01 {
+	font-size: 25px;
+	margin: 0;
+}
+
+.T_C_02 {
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.all_T {
+	display: flex;
+	gap: 15px;
+}
+
+.admin01 {
+	display: flex;
+	align-items: start;
+	gap: 10px;
+}
+
+#admin01 {
+	align-items: center;
+}
+
+.d_N {
+	height: 50px;
+	width: 50px;
+	background: rgba(169, 97, 20, 0.847);
+	border-radius: 5px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.p_N {
+	margin: 0;
+	color: #fff;
+	font-size: 32px;
+}
+
+.p_Admin {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.s_p_03 {
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+	color: #000;
+}
+
+.s_p_03:hover {
+	color: #000;
+}
+
+.s_p_04 {
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+	color: seagreen;
+}
+
+.s_p_04:hover {
+	color: seagreen;
+}
 
 /*  */
 
