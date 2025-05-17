@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="./index.css">
+
+    <title>Maysa</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="container">
+            <div class="row justify-content-between align-items-center mt-3">
+                <div class="col-3">
+                    <div class="d_part01_N">
+                        <div class="d_bg_black">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div class="d_num">
+                            <i class="fa-solid fa-phone"></i>
+                            <p class="p_num"> +998-97-777-77-77 </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <img src="./img/Logo.png" alt="" class="img_logo">
+                </div>
+                <div class="col-3">
+                    <div class="d_part03_N">
+                        <div class="d_bg_black">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </div>
+                        <!-- <div class="d_bg_black"> -->
+                        <select class="form-select" aria-label="Default select example" style="width: 70px;"
+                            onchange="handleSelect(this)">
+                            <option selected><i class="fa-solid fa-user"></i></option>
+                            <option value="1">Acc</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                        <!-- </div> -->
+                        <button class="btn_N">Свяжитесь с нами</button>
+                        <!-- <div class="d_bg_green">
+                            <p class="p_nav"></p>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <nav>
+        <div class="container">
+            <div class="row justify-content-center mt-3">
+                <div class="col-10">
+                    <ul class="ul_li_N">
+                        <li class="li_N"> <a href="../Glavniy/index.html" class="li_N">Главная</a></li>
+                        <li class="li_N"> <a href="../Magazin/index.html" class="li_N">Магазин</a></li>
+                        <li class="li_N"> <a href="../Usluga/index.html" class="li_N">Услуги</a></li>
+                        <li class="li_N"> <a href="../Tseni/index.html" class="li_N">Цены</a></li>
+                        <!-- <li class="li_N"> <a href="../Novosti/index.html" class="li_N">Новости</a></li> -->
+                        <li class="li_N"> <a href="../o nas/index.html" class="li_N">О нас</a></li>
+                        <!-- <li class="li_N"> <a href="../Svizatsa/index.html" class="li_N">Свяжитесь с нами</a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control br_C" id="inputEmail4">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">Password</label>
+                            <input type="password" class="form-control br_C" id="inputPassword4">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label">Address</label>
+                            <input type="text" class="form-control br_C" id="inputAddress" placeholder="1234 Main St">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress2" class="form-label">Address 2</label>
+                            <input type="text" class="form-control br_C" id="inputAddress2"
+                                placeholder="Apartment, studio, or floor">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputCity" class="form-label">City</label>
+                            <input type="text" class="form-control br_C" id="inputCity">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="inputState" class="form-label">State</label>
+                            <select id="inputState" class="form-select">
+                                <option selected>Choose...</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label for="inputZip" class="form-label">Zip</label>
+                            <input type="text" class="form-control br_C" id="inputZip">
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input br_C" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Check me out
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Sign in</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <footer>
+        <div class="all_F">
+            <div class="container pt-5 pb-5">
+                <div class="row">
+                    <div class="col-3">
+                        <p class="p_F01">Полезные ссылки</p>
+
+                        <ul class="ul_F">
+                            <li class="li_F"><a href="#" class="li_F">Главная</a></li>
+                            <li class="li_F"><a href="#" class="li_F">О нас</a></li>
+                            <li class="li_F"><a href="#" class="li_F">Продукты</a></li>
+                            <li class="li_F"><a href="#" class="li_F">Услуги</a></li>
+                            <li class="li_F"><a href="#" class="li_F">Юридическая информация</a></li>
+                            <li class="li_F"><a href="#" class="li_F">Политика</a></li>
+                            <li class="li_F"><a href="#" class="li_F">Конфиденциальности</a></li>
+                            <li class="li_F"><a href="#" class="li_F">Свяжитесь с нами</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <p class="p_F01">О нас</p>
+
+                        <p class="p_F02">Мы — команда увлечённых людей, стремящихся улучшить жизнь каждого с помощью
+                            инновационных продуктов. Мы создаём отличные решения для ваших бизнес-задач.</p>
+
+                        <p class="p_F02">Наши продукты разработаны для компаний малого и среднего бизнеса, желающих
+                            повысить свою эффективность.</p>
+                    </div>
+                    <div class="col-3">
+                        <p class="p_F01">Свяжитесь с нами</p>
+
+                        <div class="d_link_F">
+                            <i class="fa-solid fa-comment" style="color: #ffffff;"></i>
+                            <p class="p_03"><a href="#" class="p_03">Свяжитесь с нами</a></p>
+                        </div>
+                        <div class="d_link_F">
+                            <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+                            <p class="p_03"><a href="#" class="p_03">playerallgames007@gmail.com</a></p>
+                        </div>
+                        <div class="d_link_F">
+                            <i class="fa-solid fa-phone" style="color: #ffffff;"></i>
+                            <p class="p_03"><a href="#" class="p_03">+998-33-500-57-46</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d_F p-4">
+            <div class="container">
+                <p class="levtover_p">Авторское право © Название компании</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function handleSelect(select) {
+            if (select.value === "1") {
+                window.location.href = "../Akk/index.html";
+            } else if (select.value === "2") {
+                window.location.href = "";
+            } else if (select.value === "3") {
+                window.location.href = "";
+            }
+            // boshqa variantlar uchun xohlasangiz boshqa yo'nalishlar qo‘shishingiz mumkin
+        }
+    </script>
+
+    <script src="./bootstrap/bootstrap.js"></script>
+</body>
+
+</html>
