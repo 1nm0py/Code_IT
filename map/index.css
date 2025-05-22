@@ -129,49 +129,29 @@ nav {
 }
 
 /*  */
+.li_H {}
 
-.h2_H {
-	font-family: Roboto;
-	font-size: 30px;
-	font-weight: 400;
-}
-
-.d_Card_H {
-	padding: 5px 25px;
-	background: #0000000b;
-	border-radius: 10px;
-	width: 100%;
+.all_mapD {
 	display: flex;
-	gap: 25px;
-	/* justify-content: space-between; */
+	gap: 20px;
 }
 
-.d_Card_H:hover {
-	background: #0000002b;
+.P_M {
+	padding: 20px;
 }
 
-.img_C {}
-
-.text_C {
-	font-family: Roboto;
+.btn_M {
+	width: 200px;
+	padding: 10px;
+	background: #48cfc5;
+	color: #fff;
+	border-radius: 15px;
 }
 
-.T_C_01 {
-	font-size: 22px;
-	margin: 0;
-}
-
-.T_C_02 {
-	font-size: 15px;
-	font-weight: 300;
-	margin-bottom: 0;
-}
-.img_C02{
-	height: 78px;
-}
-.all_T {
+.d_li_p {
 	display: flex;
-	gap: 15px;
+	align-items: center;
+	gap: 20px;
 }
 
 .admin01 {
@@ -184,39 +164,6 @@ nav {
 	align-items: center;
 }
 
-.d_N {
-	height: 50px;
-	width: 50px;
-	background: rgba(169, 97, 20, 0.847);
-	border-radius: 5px;
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.p_N {
-	margin: 0;
-	color: #fff;
-	font-size: 32px;
-}
-
-.p_Admin {
-	font-size: 20px;
-	font-weight: 400;
-}
-
-.s_p_03 {
-	margin: 0;
-	list-style: none;
-	text-decoration: none;
-	color: #000;
-}
-
-.s_p_03:hover {
-	color: #000;
-}
-
 .s_p_04 {
 	margin: 0;
 	list-style: none;
@@ -226,10 +173,6 @@ nav {
 
 .s_p_04:hover {
 	color: seagreen;
-}
-
-#btn_H{
-	background: #48cfc5;
 }
 
 /*  */
@@ -286,93 +229,3 @@ nav {
 	color: rgb(207, 207, 207);
 	background-color: rgb(2, 31, 35);
 }
-
-/* 
-* {
-	margin: 0;
-	padding: 0;
-	text-decoration: none;
-	list-style: none;
-}
-
-footer {
-	display: flex;
-	gap: 90px;
-	justify-content: center;
-	background-color: rgb(0, 35, 41);
-	padding-top: 60px;
-	padding-bottom: 60px;
-}
-
-.first_box {
-	color: white;
-}
-
-.first_box_ul {
-	padding-top: 15px;
-}
-
-.second_box {
-	color: white;
-}
-
-.second_box_parag {
-	margin-top: 15px;
-	color: white;
-	letter-spacing: 0.2px;
-	font-size: 17px;
-}
-
-.parag2 {
-	padding-top: 20px;
-}
-
-.third_box_heading {
-	color: white;
-}
-
-
-.first_box_link {
-	color: aqua;
-	margin-bottom: 5px;
-	opacity: 100%;
-	text-decoration: none;
-	list-style: none;
-}
-
-.first_box_a:hover {
-	color: aqua;
-}
-
-
-.leftover {
-	width: 1200px;
-	margin: auto;
-}
-
-.holderorsmth {
-	display: flex;
-	gap: 10px;
-	margin-bottom: 8px;
-	color: aqua;
-	opacity: 100%;
-}
-
-.allholder {
-	padding-top: 17px;
-}
-
-.logoholder {
-	display: flex;
-	justify-content: center;
-	gap: 10px;
-	padding-top: 30px;
-
-}
-
-.circle {
-	border-radius: 50%;
-	background-color: white;
-	padding: 17px 20px;
-}
-*/

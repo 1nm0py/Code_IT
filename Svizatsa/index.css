@@ -27,6 +27,7 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	/* background-attachment: fixed; */
 }
 
 .d_num {
