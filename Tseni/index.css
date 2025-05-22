@@ -73,7 +73,16 @@ nav {
 .p_nav {
 	margin-bottom: 0;
 } */
+.karzinka{
+	list-style: none;
+	text-decoration: none;
 
+	color: #000;
+}
+
+.karzinka:hover {
+	color: #000;
+}
 .btn_N {
 	width: 175px;
 	height: 40px;

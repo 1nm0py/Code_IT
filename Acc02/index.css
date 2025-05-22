@@ -54,7 +54,16 @@ nav {
 	align-items: center;
 	gap: 15px;
 }
+.karzinka{
+	list-style: none;
+	text-decoration: none;
 
+	color: #000;
+}
+
+.karzinka:hover {
+	color: #000;
+}
 /* .d_bg_green {
 	cursor: pointer;
 

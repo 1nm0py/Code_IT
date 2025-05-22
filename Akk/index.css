@@ -88,7 +88,16 @@ nav {
 
 	margin-bottom: 0;
 }
+.karzinka{
+	list-style: none;
+	text-decoration: none;
 
+	color: #000;
+}
+
+.karzinka:hover {
+	color: #000;
+}
 /*  */
 
 .ul_li_N {
@@ -130,6 +139,16 @@ nav {
 
 /*  */
 
+.a_text_C{
+	color: #000;
+	list-style: none;
+	text-decoration: none;
+}
+
+.a_text_C:hover{
+	color: #000;
+}
+
 .h2_H {
 	font-family: Roboto;
 	font-size: 30px;
@@ -152,6 +171,16 @@ nav {
 
 .img_C {}
 
+#T_C {
+	text-decoration: none;
+	color: #000;
+}
+
+#T_C:hover {
+	text-decoration: none;
+	color: #000;
+}
+
 .text_C {
 	font-family: Roboto;
 }
@@ -166,9 +195,11 @@ nav {
 	font-weight: 300;
 	margin-bottom: 0;
 }
-.img_C02{
+
+.img_C02 {
 	height: 78px;
 }
+
 .all_T {
 	display: flex;
 	gap: 15px;
@@ -228,7 +259,7 @@ nav {
 	color: seagreen;
 }
 
-#btn_H{
+#btn_H {
 	background: #48cfc5;
 }
 

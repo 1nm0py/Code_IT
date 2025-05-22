@@ -73,16 +73,7 @@ nav {
 .p_nav {
 	margin-bottom: 0;
 } */
-.karzinka{
-	list-style: none;
-	text-decoration: none;
 
-	color: #000;
-}
-
-.karzinka:hover {
-	color: #000;
-}
 .btn_N {
 	width: 175px;
 	height: 40px;
@@ -97,7 +88,16 @@ nav {
 
 	margin-bottom: 0;
 }
+.karzinka{
+	list-style: none;
+	text-decoration: none;
 
+	color: #000;
+}
+
+.karzinka:hover {
+	color: #000;
+}
 /*  */
 
 .ul_li_N {
@@ -139,6 +139,111 @@ nav {
 
 /*  */
 
+.all_Zakaz {
+	padding: 15px;
+	background: #0000000c;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 15;
+}
+
+.d_p {
+	display: flex;
+	justify-content: end;
+}
+
+.img_D {
+	display: flex;
+	gap: 50px;
+}
+
+.img_D02 {
+	display: list-item;
+}
+
+.p_sum {
+	margin-right: 5px;
+	text-align: end;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.img_T {
+	width: 20%;
+	height: 20%;
+}
+
+.btn_plus {
+	width: 40px;
+	height: 40px;
+	border-radius: 10px;
+
+	font-size: 28px;
+	font-weight: 500;
+
+	padding-bottom: 45px;
+}
+
+.d_T_name {}
+
+.h6_Z_n {
+	margin-bottom: 0;
+
+	font-size: 26px;
+	font-weight: 700;
+}
+
+.p_Z_n {
+	margin-bottom: 0;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.num {
+	width: 120px;
+
+	display: flex;
+	align-items: center;
+	gap: 15px;
+
+	border: 1px solid gray;
+	border-radius: 10px;
+}
+
+.num p {
+	margin-bottom: 0;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+/*  */
+
+.all_Zakaz02 {
+	display: list-item;
+	padding: 15px;
+	background: #0000000c;
+	width: 100%;
+	border-radius: 15;
+}
+.part01 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.pp_All_Z {
+	font-size: 18px;
+	font-weight: 400;
+}
+.pp_All_Z02{
+	font-size: 20px;
+	font-weight: 700;
+}
+.line {
+}
+
+/*  */
 
 .all_F {
 	background: rgb(0, 35, 41);
