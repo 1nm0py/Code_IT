@@ -275,3 +275,16 @@ span {
 	color: rgb(207, 207, 207);
 	background-color: rgb(2, 31, 35);
 }
+@media(max-width: 670px){
+	.h1_Sect02{
+		font-size: 40px;
+		text-align: start;
+	}
+	.h4_Sect{
+		font-size: 26px;
+
+	}
+	.user_D{
+		display: list-item;
+	}
+}

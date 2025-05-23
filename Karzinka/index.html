@@ -113,7 +113,7 @@
         </div>
     </nav>
 
-    <header>
+    <header class="d-none d-lg-block">
         <div class="container mt-5">
             <h2 class="h2_Z">Обзор заказов</h2>
             <div class="row mt-3 mb-5 justify-content-between">
@@ -167,7 +167,60 @@
             </div>
         </div>
     </header>
+    <header class="d-block d-lg-none">
+        <div class="container mt-5">
+            <h2 class="h2_Z">Обзор заказов</h2>
+            <div class="row mt-3 mb-5 justify-content-center">
+                <div class="col-10">
+                    <div class="all_Zakaz">
+                        <div class="img_D">
+                            <img src="./img/Logo.png" alt="" class="img_T">
 
+                            <div class="d_T_name">
+                                <h6 class="h6_Z_n">Dori nomi</h6>
+                                <p class="p_Z_n">Dori xaqida</p>
+                            </div>
+                        </div>
+                        <div class="img_D02">
+                            <div class="d_p">
+                                <p class="p_sum02">$ </p>
+                                <p class="p_sum"> 1</p>
+                            </div>
+
+                            <div class="num">
+                                <button onclick="changeCount(-1)" class="btn_plus">-</button>
+                                <p><span id="count">1</span></p>
+                                <button onclick="changeCount(1)" class="btn_plus">+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 mt-5">
+                    <div class="all_Zakaz02">
+                        <div class="part01">
+                            <p class="pp_All_Z">Доставка</p>
+                            <p class="pp_All_Z">--</p>
+                        </div>
+                        <div class="part01">
+                            <p class="pp_All_Z">Промежуточный итог</p>
+                            <p class="pp_All_Z">$ 0,00</p>
+                        </div>
+                        <div class="part01">
+                            <p class="pp_All_Z">Налоги</p>
+                            <p class="pp_All_Z">$ 0.00</p>
+                        </div>
+
+                        <hr class="line">
+
+                        <div class="part01">
+                            <p class="pp_All_Z02">Доставка</p>
+                            <p class="pp_All_Z02">0.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
     <footer class="d-none d-lg-block">
         <div class="all_F">
             <div class="container pt-5 pb-5">

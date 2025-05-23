@@ -407,3 +407,9 @@ footer {
 	padding: 17px 20px;
 }
 */
+
+@media(max-width: 670px){
+	.all_T{
+		display: list-item;
+	}
+}

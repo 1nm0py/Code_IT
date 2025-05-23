@@ -116,13 +116,14 @@
     <header>
         <div class="header_bg">
             <div class="container">
-                <h1 class="h1_H">Услуги</h1>
+                <h1 class="h1_H" style="color: #ffffff;">Цены</h1>
             </div>
-            <img src="./img/Header_img.png" alt="" class="img_bg_H">
+            <img src="https://i.pinimg.com/originals/52/9c/e2/529ce2587548b631f7fbe78d4d19d6cb.jpg" alt=""
+                class="img_bg_H">
         </div>
     </header>
 
-    <section>
+    <section class="d-none d-lg-block">
         <div class="container">
             <div class="row justify-content-around align-items-center mt-5 mb-5">
                 <div class="col-5">
@@ -133,6 +134,23 @@
                     <button class="btn_N" id="btn_S">Узнать больше о наших продуктах</button>
                 </div>
                 <div class="col-5">
+                    <img src="./img/bg_01.jpg" alt="" class="img_Sect" style="width: 80%;">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="d-block d-lg-none">
+        <div class="container">
+            <div class="row justify-content-start align-items-center mt-5 mb-5">
+                <div class="col-8">
+                    <h4 class="h4_Sect">Улучшайте свой <span> опыт </span></h4>
+                    <p class="p_sect">Напишите один-два абзаца, описывающих ваши услуги. Для успеха ваш контент должен
+                        быть полезен читателям и информативен.</p>
+                    <p class="p_sect">Начните с клиента — узнайте, чего он хочет, и предоставьте это ему.</p>
+                    <button class="btn_N" id="btn_S">Узнать больше о наших продуктах</button>
+                </div>
+                <div class="col-8 mt-5">
                     <img src="./img/bg_01.jpg" alt="" class="img_Sect" style="width: 80%;">
                 </div>
             </div>
@@ -201,7 +219,7 @@
         </div>
     </section>
 
-   <footer class="d-none d-lg-block">
+    <footer class="d-none d-lg-block">
         <div class="all_F">
             <div class="container pt-5 pb-5">
                 <div class="row">
@@ -318,7 +336,7 @@
             // boshqa variantlar uchun xohlasangiz boshqa yo'nalishlar qo‘shishingiz mumkin
         }
     </script>
-<script>
+    <script>
         function handleSelect02(select) {
             if (select.value === "1") {
                 window.location.href = "../Glavniy/index.html";
