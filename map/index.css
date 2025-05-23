@@ -239,3 +239,8 @@ nav {
 	color: rgb(207, 207, 207);
 	background-color: rgb(2, 31, 35);
 }
+@media(max-width: 670px) {
+	.all_mapD{
+		display: list-item;
+	}
+}

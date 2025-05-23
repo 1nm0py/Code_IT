@@ -73,16 +73,7 @@ nav {
 .p_nav {
 	margin-bottom: 0;
 } */
-.karzinka{
-	list-style: none;
-	text-decoration: none;
 
-	color: #000;
-}
-
-.karzinka:hover {
-	color: #000;
-}
 .btn_N {
 	width: 175px;
 	height: 40px;
@@ -191,4 +182,123 @@ nav {
 .d_F {
 	color: rgb(207, 207, 207);
 	background-color: rgb(2, 31, 35);
+}
+
+
+
+.noUi-touch-area{
+	width: 3px;
+	height: 5px;
+}
+#slider {
+  width: 300px;
+  margin: 40px 0;
+}
+
+/* Обычная серая линия (треки) */
+.noUi-connect {
+  background: #007bff; /* синяя линия между значениями */
+}
+.noUi-target {
+  background: #ddd;      /* вся линия серая */
+  border: none;
+  box-shadow: none;
+  height: 6px;           /* толщина линии */
+  border-radius: 3px;
+  transition: all 0.3s ease; /* плавность */
+}
+
+
+
+
+/* Удаление внутренних "палочек" в ручках */
+.noUi-handle::before,
+.noUi-handle::after {
+  display: none;
+}
+
+/* Удаление рамки у всплывающих цен */
+.noUi-tooltip {
+  border: none;
+  background: transparent;
+  font-weight: bold;
+  font-size: 14px;
+  color: #000;
+  box-shadow: none;
+}
+.noUi-handle {
+  width: 12px;              /* ширина круга */
+  height: 12px;             /* высота круга */
+  border-radius: 50%;       /* делает его круглым */
+  background-color: #fff;   /* цвет внутри */
+  border: 2px solid #000;   /* чёрная рамка */
+  top: -4px;                /* вертикальное выравнивание */
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+/* Стили ручек noUiSlider */
+#slider .noUi-handle {
+  width: 10px !important;
+  height: 10px !important;
+  top: -3px !important;
+  border-radius: 50% !important;
+  background-color: rgb(255, 255, 255) !important;
+  border: 2px solid #007bff !important;
+  box-shadow: none !important;
+  cursor: pointer !important;
+  transition: background-color 2s ease;
+}
+
+/* При наведении — синий фон внутри */
+#slider .noUi-handle:hover,
+#slider .noUi-handle:focus,
+#slider .noUi-handle:active {
+  background-color: #007bff !important;
+}
+
+/* При наведении и нажатии — синий цвет внутри */
+.noUi-handle:hover,
+.noUi-handle:focus,
+.noUi-handle:active {
+  background-color: #007bff;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+}
+.shop__value{
+margin: 0 100px;
+}
+.shop__value-title{
+	font-size: 22px;
+	font-weight: 700;
+}
+.shop__search-item{
+	padding: 7px;
+	width: 400px;
+	border-radius: 5px;
+   border: 1px solid grey;
+   outline: none;
+}
+.shop__search-item:hover{
+	border: 2px solid #0d6efd;
+}
+.icon {
+	border: 1px solid rgb(247, 247, 247);
+	outline: none;
+	width: 40px;
+	padding: 7px;
+}
+.products{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+}
+.product{
+	text-align: center;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+} 
+.product__name{
+	font-size: 18px;
+	color: #343434;
+	font-weight: 700;
 }

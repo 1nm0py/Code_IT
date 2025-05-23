@@ -10,6 +10,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="./bootstrap/bootstrap.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.0/nouislider.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.0/nouislider.min.js"></script>
     <link rel="stylesheet" href="./index.css">
 
     <title>Maysa</title>
@@ -18,7 +20,7 @@
 <body>
 
     <nav>
-        <div class="container d-none d-lg-block">
+        <div class="container">
             <div class="row justify-content-between align-items-center mt-3">
                 <div class="col-3">
                     <div class="d_part01_N">
@@ -37,9 +39,7 @@
                 <div class="col-3">
                     <div class="d_part03_N">
                         <div class="d_bg_black">
-                            <a href="../Karzinka/index.html" class="karzinka">
-                                <i class="fa-solid fa-basket-shopping"></i>
-                            </a>
+                            <i class="fa-solid fa-basket-shopping"></i>
                         </div>
                         <!-- <div class="d_bg_black"> -->
                         <select class="form-select" aria-label="Default select example" style="width: 70px;"
@@ -62,9 +62,9 @@
             </div>
         </div>
     </nav>
-
+    <hr style="border: 1px solid black;">
     <nav>
-        <div class="container d-none d-lg-block">
+        <div class="container">
             <div class="row justify-content-center mt-3">
                 <div class="col-10">
                     <ul class="ul_li_N">
@@ -80,40 +80,176 @@
             </div>
         </div>
     </nav>
+    <hr style="border: 1px solid black;">
 
-    <nav>
-        <div class="container d-block d-lg-none mt-3">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-2">
-                    <img src="./img/Logo.png" alt="" class="img_loggo" style="width: 100%;">
+    <div class="container">
+
+
+        <main class="main">
+
+
+            <div class="shop d-flex align-items-center  ">
+                <div class="shop__value">
+                    <h2 class="shop__value-title">Диапазон цен</h2>
+                    <div id="slider"></div>
+                    <p>Цена: <span id="min-price">0</span>$ – <span id="max-price">7</span>$</p>
                 </div>
-                <div class="col-4">
-                    <div class="all_K_S_O" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div class="d_bg_black">
-                            <a href="../Karzinka/index.html" class="karzinka">
-                                <i class="fa-solid fa-basket-shopping"></i>
-                            </a>
+                <div class="shop__search d-flex">
+                    <input class="shop__search-item" placeholder="Поиск..." type="search">
+                    <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                </div>
+            </div>
+
+            <div id="productContainer">
+                <div class="container" style="margin: 0 100px ; margin-bottom: 100px;">
+                    <div class="products">
+                        <div class="product" data-price="1">
+                            <img style="width: 300px; height: 300px;" src="./img/pastamol.jpg" alt="">
+                            <a class="product__name" style="text-decoration: none;" href="./buy/buy1.html">Tovar A</a>
+                            <p class="product__price"> $1</p>
+                        </div>
+                        <div class="product" data-price="3">
+                            <img style="width: 300px; height: 300px;" src="./img/amiodaron.jpg" alt="">
+                            <a class="product__name" style="text-decoration: none;" href="./buy2.html">Tovar A</a>
+                            <p class="product__price"> $1</p>
+                        </div>
+                        <div class="product" data-price="5">
+                            <img style="width: 300px; height: 300px;" src="./img/amoksatsilin.jpg" alt="">
+                            <a class="product__name" style="text-decoration: none;" href="./buy3.html">Tovar A</a>
+                            <p class="product__price"> $1</p>
+                        </div>
+                        <div class="product" data-price="7"> <img style="width: 300px; height: 300px;"
+                                src="./img/dalgit.jpg" alt="">
+                            <a class="product__name" style="text-decoration: none;" href="./buy4.html">Tovar A</a>
+                            <p class="product__price"> $7</p>
+                        </div>
+
+                        <div class="product" data-price="9"> <img style="width: 300px; height: 300px;"
+                                src="./img/diazalin.jpg" alt="">
+                            <a class="product__name" style="text-decoration: none;" href="">Tovar A</a>
+                            <p class="product__price"> $7</p>
                         </div>
 
 
-                        <select class="form-select" aria-label="Default select example" style="width: 100px;"
-                            onchange="handleSelect02(this)">
-                            <option selected><i class="fa-solid fa-user"> Menu </i></option>
-                            <option value="1">Главная</option>
-                            <option value="2">Магазин</option>
-                            <option value="3">Услуги</option>
-                            <option value="4">Цены</option>
-                            <option value="5">О нас</option>
-                            <hr>
-                            <option value="6">Acc</option>
-                        </select>
+
+                        <div class="product" data-price="11"> <img style="width: 300px; height: 300px;"
+                                src="./img/ezantal.webp" alt="">
+                            <a class="product__name" style="text-decoration: none;" href="">Tovar A</a>
+                            <p class="product__price"> $7</p>
+                        </div>
+
+
+                        <div class="product" data-price="13"> <img style="width: 300px; height: 300px;"
+                                src="./img/ibuklin.webp" alt="">
+                            <a class="product__name" style="text-decoration: none;" href="">Tovar A</a>
+                            <p class="product__price"> $7</p>
+                        </div>
+
+                        <div class="product" data-price="15"> <img style="width: 300px; height: 300px;"
+                                src="./img/kordaron.jpg" alt="">
+                            <a class="product__name" style="text-decoration: none;" href="">Tovar A</a>
+                            <p class="product__price"> $7</p>
+                        </div>
+
+
+                        <div class="product" data-price="17"> <img style="width: 300px; height: 300px;"
+                                src="./img/magne b6.webp" alt="">
+                            <a class="product__name" style="text-decoration: none;" href="">Tovar A</a>
+                            <p class="product__price"> $7</p>
+                        </div>
+
+
+                        <div class="product" data-price="2"> <img style="width: 300px; height: 300px;"
+                                src="./img/mukaltin.webp" alt="">
+                            <a class="product__name" style="text-decoration: none;" href="">Tovar A</a>
+                            <p class="product__price"> $7</p>
+                        </div>
+
+
+
+                        <div class="product" data-price="4"> <img style="width: 300px; height: 300px;"
+                                src="./img/qupen.webp" alt="">
+                            <a class="product__name" style="text-decoration: none;" href="">Tovar A</a>
+                            <p class="product__price"> $7</p>
+                        </div>
+
+                        <div class="product" data-price="6"> <img style="width: 300px; height: 300px;"
+                                src="./img/rengalin.webp" alt="">
+                            <a class="product__name" style="text-decoration: none;" href="">Tovar A</a>
+                            <p class="product__price"> $7</p>
+                        </div>
+
+
+
+                        <div class="product" data-price="8"> <img style="width: 300px; height: 300px;"
+                                src="./img/septolete.png" alt="">
+                            <a class="product__name" style="text-decoration: none;" href="">Tovar A</a>
+                            <p class="product__price"> $7</p>
+                        </div>
+
+
+                        <div class="product" data-price="1"> <img style="width: 300px; height: 300px;"
+                                src="./img/spazmofarm.jpg" alt="">
+                            <a class="product__name" style="text-decoration: none;" href="">Tovar A</a>
+                            <p class="product__price"> $7</p>
+                        </div>
+
+
+                        <div class="product" data-price="10"> <img style="width: 300px; height: 300px;"
+                                src="./img/trambapol.avif" alt="">
+                            <a class="product__name" style="text-decoration: none;" href="">Tovar A</a>
+                            <p class="product__price"> $7</p>
+                        </div>
+
+
+                        <div class="product" data-price="12"> <img style="width: 300px; height: 300px;"
+                                src="./img/valerinka.jpg" alt="">
+                            <a class="product__name" style="text-decoration: none;" href="">Tovar A</a>
+                            <p class="product__price"> $7</p>
+                        </div>
+
+                        <div class="product" data-price="7"> <img style="width: 300px; height: 300px;"
+                                src="./img/zentel.webp" alt="">
+                            <a class="product__name" style="text-decoration: none;" href="./buy5.html">Tovar A</a>
+                            <p class="product__price"> $7</p>
+                        </div>
+
+
+
+                        <div class="product" data-price="7"> <img style="width: 300px; height: 300px;"
+                                src="./img/tsikloninon.webp" alt="">
+                            <a class="product__name" style="text-decoration: none;" href="./buy6.html">Tovar A</a>
+                            <p class="product__price"> $7</p>
+                        </div>
+
+
+                        <div class="product" data-price="7"> <img style="width: 300px; height: 300px;"
+                                src="./img/geptral.webp" alt="">
+                            <a class="product__name" style="text-decoration: none;" href="./buy/buy.html">Tovar A</a>
+                            <p class="product__price"> $7</p>
+                        </div>
+
+
+
+                        <div class="product" data-price="7"> <img style="width: 300px; height: 300px;"
+                                src="./img/korteksin.webp" alt="">
+                            <a class="product__name" style="text-decoration: none;" href="./buy7.html">Tovar A</a>
+                            <p class="product__price"> $7</p>
+                        </div>
+
+
+
+
                     </div>
                 </div>
             </div>
-        </div>
-    </nav>
 
-   <footer class="d-none d-lg-block">
+
+
+        </main>
+    </div>
+
+    <footer>
         <div class="all_F">
             <div class="container pt-5 pb-5">
                 <div class="row">
@@ -165,58 +301,12 @@
             </div>
         </div>
     </footer>
-    <footer class="d-block d-lg-none">
-        <div class="all_F">
-            <div class="container pt-5 pb-5">
-                <div class="row">
-                    <div class="col-10">
-                        <p class="p_F01">Полезные ссылки</p>
 
-                        <ul class="ul_F">
-                            <li class="li_F"><a href="#" class="li_F">Главная</a></li>
-                            <li class="li_F"><a href="#" class="li_F">О нас</a></li>
-                            <li class="li_F"><a href="#" class="li_F">Продукты</a></li>
-                            <li class="li_F"><a href="#" class="li_F">Услуги</a></li>
-                            <li class="li_F"><a href="#" class="li_F">Юридическая информация</a></li>
-                            <li class="li_F"><a href="#" class="li_F">Политика</a></li>
-                            <li class="li_F"><a href="#" class="li_F">Конфиденциальности</a></li>
-                            <li class="li_F"><a href="#" class="li_F">Свяжитесь с нами</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-10">
-                        <p class="p_F01">О нас</p>
 
-                        <p class="p_F02">Мы — команда увлечённых людей, стремящихся улучшить жизнь каждого с помощью
-                            инновационных продуктов. Мы создаём отличные решения для ваших бизнес-задач.</p>
 
-                        <p class="p_F02">Наши продукты разработаны для компаний малого и среднего бизнеса, желающих
-                            повысить свою эффективность.</p>
-                    </div>
-                    <div class="col-10">
-                        <p class="p_F01">Свяжитесь с нами</p>
 
-                        <div class="d_link_F">
-                            <i class="fa-solid fa-comment" style="color: #ffffff;"></i>
-                            <p class="p_03"><a href="#" class="p_03">Свяжитесь с нами</a></p>
-                        </div>
-                        <div class="d_link_F">
-                            <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
-                            <p class="p_03"><a href="#" class="p_03">playerallgames007@gmail.com</a></p>
-                        </div>
-                        <div class="d_link_F">
-                            <i class="fa-solid fa-phone" style="color: #ffffff;"></i>
-                            <p class="p_03"><a href="#" class="p_03">+998-33-500-57-46</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="d_F p-4">
-            <div class="container">
-                <p class="levtover_p">Авторское право © Название компании</p>
-            </div>
-        </div>
-    </footer>
+    <script src="./bootstrap/bootstrap.js"></script>
+
 
     <script>
         function handleSelect(select) {
@@ -229,25 +319,48 @@
             }
             // boshqa variantlar uchun xohlasangiz boshqa yo'nalishlar qo‘shishingiz mumkin
         }
-    </script>
-    <script>
-        function handleSelect02(select) {
-            if (select.value === "1") {
-                window.location.href = "../Glavniy/index.html";
-            } else if (select.value === "2") {
-                window.location.href = "../Magazin/index.html";
-            } else if (select.value === "3") {
-                window.location.href = "../Usluga/index.html";
-            } else if (select.value === "4") {
-                window.location.href = "../Tseni/index.html";
-            } else if (select.value === "5") {
-                window.location.href = "../o nas/index.html";
-            } else if (select.value === "6") {
-                window.location.href = "../Akk/index.html";
+
+
+        const slider = document.getElementById('slider');
+        const minDisplay = document.getElementById('min-price');
+        const maxDisplay = document.getElementById('max-price');
+        const products = document.querySelectorAll('.product');
+
+        noUiSlider.create(slider, {
+            start: [0.50, 7],
+            connect: true,
+            range: {
+                'min': 0.50,
+                'max': 7
+            },
+            step: 1,
+            tooltips: [true, true],
+            format: {
+                to: value => Math.round(value),
+                from: value => Number(value)
             }
-        }
+        });
+
+        slider.noUiSlider.on('update', (values, handle) => {
+            const min = parseInt(values[0]);
+            const max = parseInt(values[1]);
+
+            minDisplay.textContent = min;
+            maxDisplay.textContent = max;
+
+            products.forEach(product => {
+                const price = parseInt(product.dataset.price);
+                if (price >= min && price <= max) {
+                    product.style.display = 'block';
+                } else {
+                    product.style.display = 'none';
+                }
+            });
+        });
+
     </script>
-    <script src="./bootstrap/bootstrap.js"></script>
+
+
 </body>
 
 </html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href="./bootstrap/bootstrap.css">
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.0/nouislider.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.0/nouislider.min.js"></script>
+        <link rel="stylesheet" href="./index.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            list-style: none;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="row justify-content-between align-items-center mt-3">
+                <div class="col-3">
+                    <div class="d_part01_N">
+                        <div class="d_bg_black">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div class="d_num">
+                            <i class="fa-solid fa-phone"></i>
+                            <p class="p_num"> +998-33-500-57-46 </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <img src="./img/Logo.png" alt="" class="img_logo">
+                </div>
+                <div class="col-3">
+                    <div class="d_part03_N">
+                        <div class="d_bg_black">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </div>
+                        <!-- <div class="d_bg_black"> -->
+                        <select class="form-select" aria-label="Default select example" style="width: 70px;"
+                            onchange="handleSelect(this)">
+                            <option selected><i class="fa-solid fa-user"></i></option>
+                            <option value="1">Acc</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                        <!-- </div> -->
+                        <!-- <button class="btn_N">Свяжитесь с нами</button> -->
+                        <button class="btn_N"><a href="../Svizatsa/index.html"
+                                style="text-decoration: none; list-style: none; color: #ffffff;">Свяжитесь с
+                                нами</a></button>
+                        <!-- <div class="d_bg_green">
+                            <p class="p_nav"></p>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <hr style="border: 1px solid black;">
+    <nav>
+        <div class="container">
+            <div class="row justify-content-center mt-3">
+                <div class="col-10">
+                    <ul class="ul_li_N">
+                        <li class="li_N"> <a href="../Glavniy/index.html" class="li_N">Главная</a></li>
+                        <li class="li_N"> <a href="../Magazin/index.html" class="li_N">Магазин</a></li>
+                        <li class="li_N"> <a href="../Usluga/index.html" class="li_N">Услуги</a></li>
+                        <li class="li_N"> <a href="../Tseni/index.html" class="li_N">Цены</a></li>
+                        <!-- <li class="li_N"> <a href="../Novosti/index.html" class="li_N">Новости</a></li> -->
+                        <li class="li_N"> <a href="../o nas/index.html" class="li_N">О нас</a></li>
+                        <!-- <li class="li_N"> <a href="../Svizatsa/index.html" class="li_N">Свяжитесь с нами</a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <hr style="border: 1px solid black;">
+    <div class="header__content">
+        <div class="container">
+            <div class="pill__about d-flex align-items-center justify-content-around">
+                <div class="about__left">
+                    <img style="width: 500px; height: 500px;" src="./img/pastamol.jpg" alt="">
+                </div>
+                <div class="about__right">
+                    <h2 class="right__title" style="font-size: 66px;" >Paratsetamol</h2>
+                    <p class="right__text">7$</p>
+                    <div class="right__btn">
+                        <button style="background: #0d6efd; color: black; border-radius: 10px; padding: 7px; font-size: 15px; font-weight: 600;" >Add to karzina</button>
+                    </div>
+                    <p style="margin-top: 20px ;">Условия и положения <br>
+30-дневная гарантия возврата денег 
+Доставка: 2-3 рабочих дня</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+</html>
