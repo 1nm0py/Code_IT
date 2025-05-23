@@ -89,7 +89,7 @@ nav {
 	margin-bottom: 0;
 }
 
-.karzinka{
+.karzinka {
 	list-style: none;
 	text-decoration: none;
 
@@ -429,4 +429,34 @@ header {
 .d_F {
 	color: rgb(207, 207, 207);
 	background-color: rgb(2, 31, 35);
+}
+
+@media(max-width: 670px) {
+	.h1_H {
+		font-size: 46px;
+	}
+
+	.h2_Sect01 {
+		font-size: 34px;
+	}
+
+	.all_p_S {
+		display: flex;
+	}
+
+	.black_bg {
+		width: 100%;
+	}
+
+	.bg_sect02 {
+		width: 100%;
+	}
+
+	.Sect_04 {
+		width: 100%;
+	}
+
+	.black_bg {
+		width: 100%;
+	}
 }

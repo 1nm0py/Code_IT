@@ -18,7 +18,7 @@
 <body>
 
     <nav>
-        <div class="container">
+        <div class="container d-none d-lg-block">
             <div class="row justify-content-between align-items-center mt-3">
                 <div class="col-3">
                     <div class="d_part01_N">
@@ -64,7 +64,7 @@
     </nav>
 
     <nav>
-        <div class="container">
+        <div class="container d-none d-lg-block">
             <div class="row justify-content-center mt-3">
                 <div class="col-10">
                     <ul class="ul_li_N">
@@ -81,7 +81,39 @@
         </div>
     </nav>
 
-    <header>
+    <nav>
+        <div class="container d-block d-lg-none mt-3">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-2">
+                    <img src="./img/Logo.png" alt="" class="img_loggo" style="width: 100%;">
+                </div>
+                <div class="col-4">
+                    <div class="all_K_S_O" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div class="d_bg_black">
+                            <a href="../Karzinka/index.html" class="karzinka">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </a>
+                        </div>
+
+
+                        <select class="form-select" aria-label="Default select example" style="width: 100px;"
+                            onchange="handleSelect02(this)">
+                            <option selected><i class="fa-solid fa-user"> Menu </i></option>
+                            <option value="1">Главная</option>
+                            <option value="2">Магазин</option>
+                            <option value="3">Услуги</option>
+                            <option value="4">Цены</option>
+                            <option value="5">О нас</option>
+                            <hr>
+                            <option value="6">Acc</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="d-none d-lg-block">
         <img src="./img/original_5a08913ca24fd923f55b3df4_5c0f5edd7f58d.jpg" alt="" class="img_H_bg">
         <div class="H_bg">
             <div class="container mt-3">
@@ -101,8 +133,28 @@
             </div>
         </div>
     </header>
+    <header class="d-block d-lg-none">
+        <img src="./img/original_5a08913ca24fd923f55b3df4_5c0f5edd7f58d.jpg" alt="" class="img_H_bg">
+        <div class="H_bg">
+            <div class="container mt-3 ">
+                <div class="row justify-content-start pt-5 mb-5 pb-5">
+                    <div class="col-12">
+                        <h1 class="h1_H">Глубокое понимание здоровья и инноваций</h1>
+                    </div>
+                </div>
+                <div class="row justify-content-end mt-5 pt-5 pb-5">
+                    <div class="col-12">
+                        <p class="p_H">Преобразите свой опыт покупок с нашим новым ассортиментом, где традиционные
+                            лекарства
+                            сочетаются с современными решениями. Поддержите свое здоровье с продуктами, которые отвечают
+                            вашим потребностям.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-    <section>
+    <section class="d-none d-lg-block">
         <div class="S_bg">
             <div class="container">
                 <div class="row pt-5 pb-5">
@@ -138,7 +190,66 @@
         </div>
     </section>
 
-    <section>
+    <section class="d-block d-lg-none">
+        <div class="S_bg">
+            <div class="container">
+                <div class="row pt-5 pb-5">
+                    <div class="col-10">
+                        <h2 class="h2_Sect01">Наслаждайтесь качеством наших товаров</h2>
+                        <p class="p_Sect01">Удовольствие в каждом приеме, в каждом моменте</p>
+                    </div>
+                </div>
+
+                <div class="row justify-content-between align-items-center pb-5">
+                    <div class="col-6">
+                        <div class="all_p_S">
+                            <div class="part01">
+                                <h2 class="h2_Card_Num">01</h2>
+                                <img src="./img/website.s_key_images_default_image_1.jpg" alt="" class="img_Card"
+                                    style="width: 100%;">
+                                <p class="p_Card">Свежие ингредиенты, тщательно подобранные для вашего здоровья</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="all_p_S">
+                            <div class="part02">
+                                <h2 class="h2_Card_Num">02</h2>
+                                <img src="./img/website.s_key_images_default_image_2.jpg" alt="" class="img_Card"
+                                    style="width: 100%;">
+                                <p class="p_Card">Уютная атмосфера для любого случая, cвежие ингредиенты для вас</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-between align-items-center pb-5">
+                    <div class="col-6">
+                        <div class="all_p_S">
+                            <div class="part01">
+                                <h2 class="h2_Card_Num">03</h2>
+                                <img src="./img/website.s_key_images_default_image_3.jpg" alt="" class="img_Card"
+                                    style="width: 100%;">
+                                <p class="p_Card">Лекарственные средства, которые помогут вам чувствовать себя лучше</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="all_p_S">
+                            <div class="part02">
+                                <h2 class="h2_Card_Num">04</h2>
+                                <img src="./img/website.s_key_images_default_image_4.jpg" alt="" class="img_Card"
+                                    style="width: 100%;">
+                                <p class="p_Card">Откройте для себя нашу страсть к качественным товарам и обслуживанию
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="d-none d-lg-block">
         <div class="container">
             <div class="row pt-5">
                 <div class="col-6">
@@ -214,8 +325,87 @@
             </div>
         </div>
     </section>
+    <section class="d-block d-lg-none">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-12">
+                    <h4 class="h4_sect02" id="Coffee_id">Ознакомьтесь с нашими товарами</h4>
+                    <p class="p_sect02" id="Coffee_id">Ознакомьтесь с нашей тщательно подобранной коллекцией <br>
+                        лекарств,
+                        витаминов и медицинских товаров. Заботьтесь о своем <br> здоровье с нами!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h6 class="h6_cofe mb-5" id="Coffee_id">Кофе</h6>
+                    <div class="D_coffee" id="Coffee_id">
+                        <div class="vitamin" id="Coffee_id">
+                            <p class="p_coffee">Витамин C 1000 мг</p>
+                            <p class="p_coffee">4,50 $</p>
+                        </div>
+                        <p class="p_cofe_info">Стильное минималистичное пространство, <br> предлагающее широкий
+                            выбор витаминов и <br> медицинских препаратов.</p>
+                    </div>
+                    <div class="D_coffee mt-4" id="Coffee_id">
+                        <div class="vitamin">
+                            <p class="p_coffee">Магний 250 мг</p>
+                            <p class="p_coffee">4,25 $</p>
+                        </div>
+                        <p class="p_cofe_info">Яркое место, известное своим широким <br> ассортиментом лекарств и
+                            медицинских товаров, <br> предлагающее качественные препараты по <br> доступным ценам.
+                        </p>
+                    </div>
+                    <div class="D_coffee mt-4" id="Coffee_id">
+                        <div class="vitamin">
+                            <p class="p_coffee">Болеутоляющее</p>
+                            <p class="p_coffee">4,10 $</p>
+                        </div>
+                        <p class="p_cofe_info">Качественные препараты с акцентом на <br> безопасность и
+                            эффективность в стильной и <br> комфортной обстановке.</p>
+                    </div>
+                </div>
+            </div>
 
-    <section>
+        </div>
+        <div class="black_bg">
+            <div class="bg_sect02">
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h6 class="h6_cofe mb-5">Чаи</h6>
+                    <div class="D_coffee">
+                        <div class="vitamin">
+                            <p class="p_coffee">Аптечный крем "Бепантен"</p>
+                            <p class="p_coffee">450,00 ₽</p>
+                        </div>
+                        <p class="p_cofe_info">Классическая смесь травяного чая с ароматной <br> эссенцией
+                            бергамота, предлагающая насыщенный <br>цитрусовый вкус.</p>
+                    </div>
+                    <div class="D_coffee mt-4">
+                        <div class="vitamin">
+                            <p class="p_coffee">Парацетамол 500 мг</p>
+                            <p class="p_coffee">3,00 $</p>
+                        </div>
+                        <p class="p_cofe_info">Нежный зеленый чай с ароматом цветков жасмина, <br> дарящий
+                            успокаивающий и цветочный опыт.</p>
+                    </div>
+                    <div class="D_coffee mt-4">
+                        <div class="vitamin">
+                            <p class="p_coffee">Ромашковый чай</p>
+                            <p class="p_coffee">4,00 $</p>
+                        </div>
+                        <p class="p_cofe_info">Травяной чай из сушёных листьев мяты, известный <br> своими
+                            успокаивающими свойствами и свежим <br>вкусом.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="d-none d-lg-block">
         <div class="container pt-5 pb=5">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -303,7 +493,7 @@
         </div>
     </section>
 
-    <section>
+    <section class="d-none d-lg-block">
         <!-- <div class="Sect_04"> -->
         <div class="container pt-4 pb-5">
             <div class="row justify-content-center pt-5 pb-5">
@@ -330,8 +520,36 @@
             <img src="./img/doctor_choose.jpg" alt="" class="img_doctor_choose">
         </div>
     </section>
+    <section class="d-block d-lg-none">
+        <!-- <div class="Sect_04"> -->
+        <div class="black_bg02">
+            <img src="./img/doctor_choose.jpg" alt="" class="img_doctor_choose02" style="width: 100%;">
+        </div>
+        <div class="container">
+            <div class="row justify-content-center ">
+                <div class="col-10">
+                    <div class="comment_D mt-5 mb-5">
+                        <p class="C_P">Качество и забота о здоровье</p>
+                        <p class="C_P_04">Откройте для себя лучшее в аптечном обслуживании с нашими тщательно
+                            подобранными товарами. Независимо от того, ищете ли вы лекарства или витамины, наши
+                            предложения вас порадуют.</p>
+                        <p class="C_P_04">Почувствуйте разницу в каждом продукте.</p>
+                        <div class="d_btn_S">
+                            <button class="btn_N">Свяжитесь с нами</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </div> -->
+        <div class="black_bg">
+            <div class="Sect_04">
+            </div>
+        </div>
 
-    <footer>
+    </section>
+
+    <footer class="d-none d-lg-block">
         <div class="all_F">
             <div class="container pt-5 pb-5">
                 <div class="row">
@@ -383,6 +601,60 @@
             </div>
         </div>
     </footer>
+    <footer class="d-block d-lg-none">
+        <div class="all_F">
+            <div class="container pt-5 pb-5">
+                <div class="row">
+                    <div class="col-10">
+                        <p class="p_F01">Полезные ссылки</p>
+
+                        <ul class="ul_F">
+                            <li class="li_F"><a href="#" class="li_F">Главная</a></li>
+                            <li class="li_F"><a href="#" class="li_F">О нас</a></li>
+                            <li class="li_F"><a href="#" class="li_F">Продукты</a></li>
+                            <li class="li_F"><a href="#" class="li_F">Услуги</a></li>
+                            <li class="li_F"><a href="#" class="li_F">Юридическая информация</a></li>
+                            <li class="li_F"><a href="#" class="li_F">Политика</a></li>
+                            <li class="li_F"><a href="#" class="li_F">Конфиденциальности</a></li>
+                            <li class="li_F"><a href="#" class="li_F">Свяжитесь с нами</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-10">
+                        <p class="p_F01">О нас</p>
+
+                        <p class="p_F02">Мы — команда увлечённых людей, стремящихся улучшить жизнь каждого с помощью
+                            инновационных продуктов. Мы создаём отличные решения для ваших бизнес-задач.</p>
+
+                        <p class="p_F02">Наши продукты разработаны для компаний малого и среднего бизнеса, желающих
+                            повысить свою эффективность.</p>
+                    </div>
+                    <div class="col-10">
+                        <p class="p_F01">Свяжитесь с нами</p>
+
+                        <div class="d_link_F">
+                            <i class="fa-solid fa-comment" style="color: #ffffff;"></i>
+                            <p class="p_03"><a href="#" class="p_03">Свяжитесь с нами</a></p>
+                        </div>
+                        <div class="d_link_F">
+                            <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+                            <p class="p_03"><a href="#" class="p_03">playerallgames007@gmail.com</a></p>
+                        </div>
+                        <div class="d_link_F">
+                            <i class="fa-solid fa-phone" style="color: #ffffff;"></i>
+                            <p class="p_03"><a href="#" class="p_03">+998-33-500-57-46</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d_F p-4">
+            <div class="container">
+                <p class="levtover_p">Авторское право © Название компании</p>
+            </div>
+        </div>
+    </footer>
+
+
 
     <script>
         function handleSelect(select) {
@@ -394,6 +666,24 @@
                 window.location.href = "";
             }
             // boshqa variantlar uchun xohlasangiz boshqa yo'nalishlar qo‘shishingiz mumkin
+        }
+    </script>
+
+    <script>
+        function handleSelect02(select) {
+            if (select.value === "1") {
+                window.location.href = "../Glavniy/index.html";
+            } else if (select.value === "2") {
+                window.location.href = "../Magazin/index.html";
+            } else if (select.value === "3") {
+                window.location.href = "../Usluga/index.html";
+            } else if (select.value === "4") {
+                window.location.href = "../Tseni/index.html";
+            } else if (select.value === "5") {
+                window.location.href = "../o nas/index.html";
+            } else if (select.value === "6") {
+                window.location.href = "../Akk/index.html";
+            }
         }
     </script>
 
